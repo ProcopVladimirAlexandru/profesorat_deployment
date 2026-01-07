@@ -1,2 +1,8 @@
-./moodle/source
+moodle/source
 .ssh
+moodle/httpd
+moodle/moodledata
+moodle/*.tgz
+moodle/*.zip
+pg_volume
+commands.sh
