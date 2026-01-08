@@ -5,4 +5,3 @@ moodle/moodledata
 moodle/*.tgz
 moodle/*.zip
 pg_volume
-commands.sh
