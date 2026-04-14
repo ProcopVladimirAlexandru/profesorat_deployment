@@ -90,6 +90,18 @@ services:
     networks:
       - moodle-overlay
 
+  fastapi-server:
+    image: profesorat_lectii_fastapi_server:latest
+    restart: always
+    ports:
+     - 9002:80
+
+  react-ui:
+    image: profesorat_lectii_react_ui:latest
+    restart: always
+    ports:
+     - 9003:80
+
 networks:
   moodle-overlay:
     driver: overlay
